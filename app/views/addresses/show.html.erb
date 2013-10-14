@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Fname:</strong>
+  <%= @address.fName %>
+</p>
+
+<p>
+  <strong>Lname:</strong>
+  <%= @address.lName %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @address.email %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @address.zip %>
+</p>
+
+<p>
+  <strong>Color:</strong>
+  <%= @address.color %>
+</p>
+
+<%= link_to 'CHANGE', edit_address_path(@address) %> |
+<%= link_to 'GO_BACK', addresses_path %>
